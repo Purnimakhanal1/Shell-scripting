@@ -13,5 +13,9 @@ echo 25
 echo 33
 echo 100
 
+ps -ef | grep "root" | awk '{print $2}'
+
+
+
 
 
